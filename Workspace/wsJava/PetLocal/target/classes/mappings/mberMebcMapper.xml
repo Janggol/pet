@@ -6,15 +6,15 @@
 
 <!-- mbrDto는 sql-map-config.xml에서 선언한 alias 이름과 같아야함 -->
 	<select id="sltMulti" resultType="mbrDto">
-		SELECT * FROM PET ORDER BY MBER_NO
+		SELECT * FROM MBER_INFO ORDER BY MBER_NO
 	</select>
 
 	<select id="sltOne" resultType="mbrDto" parameterType="int">
-		SELECT * FROM PET WHERE MBER_NO = #{mberNo}
+		SELECT * FROM MBER_INFO WHERE MBER_NO = #{mberNo}
 	</select>
 
 	<insert id="insert" parameterType="mberDto">
-		INSERT INTO PET VALUES
+		INSERT INTO PEMBER_INFOT VALUES
 		( #{mberNo}, #{mberSe}, #{id}, #{pw}, #{nm}, #{ncnm}, #{brthdy}, #{adres}, #{tel}, #{email}, #{intrstAnimal}, #{isDelete} )
 
 	</insert>
