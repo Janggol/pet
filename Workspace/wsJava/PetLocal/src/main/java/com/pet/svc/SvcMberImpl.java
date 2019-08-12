@@ -71,11 +71,13 @@ public class SvcMberImpl implements ISvc{
 	}
 
 	public String login(DtoMber dto, HttpSession session){
+		
+		System.out.println("서비스 : " + dto.toString());
 
 		String inId = dto.getId();
 		String inPw = dto.getPw();
 
-		DtoMber user = mberQebc.sltID(inId);
+		DtoMber user = mberQebc.sltId(inId);
 
 		if(user == null)
 			return null;

@@ -94,6 +94,8 @@ public class CtrlMber{
 	@RequestMapping(value = "login.do")
 	public String login(DtoMber dto, HttpSession session){
 		
+		System.out.println("컨트롤러 : " + dto.toString());
+		
 		SvcMberImpl svcLogin = new SvcMberImpl();
 		String viewName = svcLogin.login(dto, session);
 

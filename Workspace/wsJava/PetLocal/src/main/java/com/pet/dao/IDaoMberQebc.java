@@ -7,7 +7,7 @@ public interface IDaoMberQebc{
 
 	int sltMaxNo();
 	
-	DtoMber sltID(String id);
+	DtoMber sltId(String id);
 
 	List<DtoMber> sltList();
 
