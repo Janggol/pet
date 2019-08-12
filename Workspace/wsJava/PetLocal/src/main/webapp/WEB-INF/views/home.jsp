@@ -7,7 +7,7 @@
 <title>꽃길 홈페이지</title>
 <script type="text/javascript"
 	src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-<link rel="stylesheet" href="resources/css/home.css" type="text/css"
+<link rel="stylesheet" href="resources/css/Home.css" type="text/css"
 	media="screen" />
 <link
 	href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"
@@ -24,13 +24,13 @@
 			<div id="top_header"></div>
 			<div id="header_inner2">
 				<ul id="header_left">
-					<li class="left"><a href="링크" target="_self">Home</a>
-						&nbsp;&nbsp;&nbsp;<a href="링크" target="_self"> 로그인</a>
-						&nbsp;&nbsp;&nbsp;<a href="링크" target="_self"> 회원가입</a></li>
+					<li class="left"><a href="home" target="_self">Home</a>
+						&nbsp;&nbsp;&nbsp;<a href="login" target="_self"> 로그인</a>
+						&nbsp;&nbsp;&nbsp;<a href="mberMng" target="_self"> 회원가입</a></li>
 				</ul>
 			</div>
 			<div id="header_inner">
-				<a href="링크" target="_self"> <!-- 로고 클릭시 향하는 주소 --> <img
+				<a href="home" target="_self"> <!-- 로고 클릭시 향하는 주소 --> <img
 					class="Pet_logo" src="resources/images/logo.jpg">
 				</a>
 			</div>
@@ -40,28 +40,28 @@
 		<!-- 메뉴쇼  -->
 		<div class="wrap">
 			<ul id="nav">
-				<li><a href="링크" target="_blank">기업소개</a>
+				<li><a href="hello" target="_blank">기업소개</a>
 					<ul>
-						<li><a href="링크" target="_blank">인삿말</a></li>
-						<li><a href="링크" target="_blank">조직도</a></li>
-						<li><a href="링크" target="_blank">연혁</a></li>
+						<li><a href="hello" target="_blank">인삿말</a></li>
+						<li><a href="comTree" target="_blank">조직도</a></li>
+						<li><a href="comHist" target="_blank">연혁</a></li>
 					</ul></li>
-				<li><a href="#">꽃길정보</a>
+				<li><a href="flowerList">꽃길정보</a>
 					<ul>
-						<li><a href="#">병원</a></li>
-						<li><a href="#">약국</a></li>
-						<li><a href="#">장례식장</a></li>
-						<li><a href="#">공원</a></li>
+						<li><a href="flowerList">병원</a></li>
+						<li><a href="flowerList">약국</a></li>
+						<li><a href="flowerList">장례식장</a></li>
+						<li><a href="flowerList">공원</a></li>
 					</ul></li>
-				<li><a href="#">커뮤니티</a>
+				<li><a href="bbsList">커뮤니티</a>
 					<ul>
-						<li><a href="#">공지사항</a></li>
-						<li><a href="#">반려뉴스</a></li>
-						<li><a href="#">꽃길광고</a></li>
+						<li><a href="bbsList">공지사항</a></li>
+						<li><a href="bbsList">반려뉴스</a></li>
+						<li><a href="bbsList">꽃길광고</a></li>
 					</ul></li>
-				<li><a href="#">오시는길</a>
+				<li><a href="map">오시는길</a>
 					<ul>
-						<li><a href="#">오시는길</a></li>
+						<li><a href="map">오시는길</a></li>
 					</ul></li>
 			</ul>
 		</div>
@@ -149,25 +149,25 @@
 			<div class="hover11 column">
 				<div>
 					<figure>
-						<img src="http://www.blueb.co.kr/SRC2/_image/s_01.jpg" />
+						<a href="flowerList" ><img src="http://www.blueb.co.kr/SRC2/_image/s_01.jpg" /></a>
 					</figure>
 					<span>병원</span>
 				</div>
 				<div>
 					<figure>
-						<img src="http://www.blueb.co.kr/SRC2/_image/s_02.jpg" />
+						<a href="flowerList" ><img src="http://www.blueb.co.kr/SRC2/_image/s_02.jpg" /></a>
 					</figure>
 					<span>약국</span>
 				</div>
 				<div>
 					<figure>
-						<img src="http://www.blueb.co.kr/SRC2/_image/s_03.jpg" />
+						<a href="flowerList" ><img src="http://www.blueb.co.kr/SRC2/_image/s_03.jpg" /></a>
 					</figure>
 					<span>장례식장</span>
 				</div>
 				<div>
 					<figure>
-						<img src="http://www.blueb.co.kr/SRC2/_image/s_01.jpg" />
+						<a href="flowerList" ><img src="http://www.blueb.co.kr/SRC2/_image/s_01.jpg" /></a>
 					</figure>
 					<span>공원</span>
 				</div>
@@ -177,18 +177,18 @@
 		<footer class="foot">
 			<div id = "foot2">
 				<ul id="infoot">
-					<li ><a href="링크" target="_blank">(주)꼬옷길</a></li>
-					<li><a href="링크" target="_blank">오시는길</a></li>
+					<li ><a href="home" target="_self">(주)꼬옷길</a></li>
+					<li><a href="map" target="_self">오시는길</a></li>
 					<li>대구광역시 달서구 달구벌대로 1670 광산빌딩 4층</li>
 				</ul>
 				<ul id="footcenter">
-					<li><a href="링크" target="_blank">기업소개</a></li>
+					<li><a href="hello" target="_self">기업소개</a></li>
 					<li>사업자번호 : 123-12-12345</li>
 					<li>Tel : 123-1234</li>
 				</ul>
 				<ul id="footright">
-					<li ><a href="링크" target="_blank">홈페이지</a></li>
-					<li><a href="링크" target="_blank">공지사항</a></li>
+					<li ><a href="home" target="_self">홈페이지</a></li>
+					<li><a href="bbsList" target="_self">공지사항</a></li>
 					<li>고객센터:1588-1588</li>
 				</ul>
 			</div>

@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>인삿말</title>
+<title>인사말</title>
 </head>
 <body>
 
