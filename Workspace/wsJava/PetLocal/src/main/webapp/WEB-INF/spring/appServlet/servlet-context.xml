@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.3.xsd">
+		
+	<!-- 트랜잭션을 Anno로 처리하기 위한 작업 -->
+	<tx:annotation-driven transaction-manager="transactionManager" />
+	
+	<!-- base-package에 있는 Component를 스캔 -->
+	<context:component-scan base-package="com.pet.*" />
+	
+	<!-- .css / .js 파일과 같은 정적인 파일을 사용하기 위해서 입력 -->
+	<mvc:default-servlet-handler/>
+	
+	<!-- @Controller / @Service와 같은 Anno 사용을 위해 작성-->
+	<mvc:annotation-driven />
+	
+	<!-- view 페이지 이름을 넘길 때 중복되는 부분 즉, view페이지의 앞/뒷부분을 작성해주기 위해 작성 -->
+	<bean id="viewResolver"
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/views/"></property>
+		<property name="suffix" value=".jsp"></property>
+	</bean>
+
+</beans>
