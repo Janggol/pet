@@ -13,10 +13,15 @@
 	<tx:annotation-driven transaction-manager="transactionManager" />
 	
 	<!-- base-package에 있는 Component를 스캔 -->
-	<context:component-scan base-package="com.pet.*" />
+	<context:component-scan base-package="com.pet" />
 	
-	<!-- .css / .js 파일과 같은 정적인 파일을 사용하기 위해서 입력 -->
-	<mvc:default-servlet-handler/>
+	<!-- .css / .js 파일과 같은 정적인 파일을 사용하기 위해서 입력
+	<mvc:default-servlet-handler/> -->
+	
+	<!-- webapp폴더 아래있는 resources 폴더를 연결 -->
+	<mvc:resources mapping="/css/**" location="/resources/css/" />
+	<mvc:resources mapping="/js/**"  location="/resources/js/" />
+	<mvc:resources mapping="/resources/**" location="/resources/" />
 	
 	<!-- @Controller / @Service와 같은 Anno 사용을 위해 작성-->
 	<mvc:annotation-driven />

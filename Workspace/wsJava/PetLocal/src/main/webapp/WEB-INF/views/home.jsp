@@ -7,7 +7,7 @@
 <title>꽃길 홈페이지</title>
 <script type="text/javascript"
 	src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-<link rel="stylesheet" href="resources/css/Home.css" type="text/css"
+<link rel="stylesheet" href="css/home.css" type="text/css"
 	media="screen" />
 <link
 	href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"

@@ -2,6 +2,7 @@ package com.pet.svc;
 
 import java.util.Map;
 import javax.servlet.http.HttpSession;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.ui.Model;
 import com.pet.dao.*;
@@ -10,8 +11,10 @@ import com.pet.dto.DtoMber;
 @Service("svcMber")
 public class SvcMberImpl implements ISvc{
 
-	IDaoMberMebc	mberMebc;
-	IDaoMberQebc	mberQebc;
+	@Autowired
+	private IDaoMberMebc	mberMebc;
+	@Autowired
+	private IDaoMberQebc	mberQebc;
 
 	@ Override
 	public String sltDetail(Model model, Map<String, Object> map){

@@ -4,10 +4,10 @@
   "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
 	<typeAliases>
-		<typeAlias type="com.pet.dto.DtoAd" 		alias="dto"></typeAlias>
-		<typeAlias type="com.pet.dto.DtoBBS" 		alias="dto"></typeAlias>
-		<typeAlias type="com.pet.dto.DtoEntrprs"	alias="dto"></typeAlias>
-		<typeAlias type="com.pet.dto.DtoEvl" 		alias="dto"></typeAlias>
-		<typeAlias type="com.pet.dto.DtoMber" 		alias="dto"></typeAlias>
+ 		<typeAlias type="com.pet.dto.DtoAd" 		alias="adDto"></typeAlias>
+		<typeAlias type="com.pet.dto.DtoBBS" 		alias="bbsDto"></typeAlias>
+		<typeAlias type="com.pet.dto.DtoEntrprs"	alias="entrprsDto"></typeAlias>
+		<typeAlias type="com.pet.dto.DtoEvl" 		alias="evlDto"></typeAlias>
+		<typeAlias type="com.pet.dto.DtoMber" 		alias="mberDto"></typeAlias>
 	</typeAliases>
 </configuration>

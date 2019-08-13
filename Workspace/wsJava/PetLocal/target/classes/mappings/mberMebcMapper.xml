@@ -5,11 +5,11 @@
 <mapper namespace="com.pet.dao.IDaoMberMebc">
 
 <!-- mbrDto는 sql-map-config.xml에서 선언한 alias 이름과 같아야함 -->
-	<select id="sltMulti" resultType="mbrDto">
+	<select id="sltMulti" resultType="mberDto">
 		SELECT * FROM MBER_INFO ORDER BY MBER_NO
 	</select>
 
-	<select id="sltOne" resultType="mbrDto" parameterType="int">
+	<select id="sltOne" resultType="mberDto" parameterType="int">
 		SELECT * FROM MBER_INFO WHERE MBER_NO = #{mberNo}
 	</select>
 
