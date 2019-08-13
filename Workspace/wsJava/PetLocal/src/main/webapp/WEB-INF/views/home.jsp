@@ -26,7 +26,7 @@
 				<ul id="header_left">
 					<li class="left"><a href="home" target="_self">Home</a>
 						&nbsp;&nbsp;&nbsp;<a href="login" target="_self"> 로그인</a>
-						&nbsp;&nbsp;&nbsp;<a href="mberMng" target="_self"> 회원가입</a></li>
+						&nbsp;&nbsp;&nbsp;<a href="mberInsert" target="_self"> 회원가입</a></li>
 				</ul>
 			</div>
 			<div id="header_inner">
