@@ -1,0 +1,383 @@
+@charset "UTF-8";
+
+#top_header {
+	background-color: #0489B1;
+	margin-top: 0px;
+	height: 10px;
+}
+
+#header_left {
+	list-style: none;
+	font-size: 110%;
+	font-family: Arial, Tahoma, sans-serif;
+}
+
+.left {
+	text-align: right;
+	margin-top: 2%;
+	margin-right: 10%;
+	
+}
+.jul{
+	width: 80%;
+	margin-left: 10%;
+}
+
+.Pet_logo {
+	height: 200px;
+}
+
+.login_button {
+	width: 120px;
+	height: 40px;
+}
+
+.join_button {
+	width: 120px;
+	height: 40px;
+}
+
+#header_inner {
+	text-align: center;
+}
+
+#menubar {
+	background-color: #F7D358;
+	margin-top: 0px;
+	margin-left: 130px;
+	height: 60px;
+	width: 1000px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 11px;
+	color: #232323;
+}
+
+.wrap {
+	width: 800px;
+	margin: 0 auto;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 11px;
+	color: #232323;
+}
+
+.wrap {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* @group core nav menu */
+#nav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border-left: 1px solid #d5dce8;
+	border-right: 1px solid #d5dce8;
+	border-bottom: 1px solid #d5dce8;
+	border-bottom-left-radius: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+	height: 50px;
+	padding-left: 23%;
+	padding-right: 0%;
+	background: #FACC2E;
+}
+
+#nav li {
+	float: left;
+	display: block;
+	background: none;
+	position: relative;
+	z-index: 999;
+	margin-left: 7%;
+	text-align: center;
+}
+
+#nav li a {
+	display: block;
+	padding: 3%;
+	font-weight: 850;
+	line-height: 50px;
+	text-decoration: none;
+	color: #818ba3;
+	zoom: 1;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+	padding: 0px 3px;
+}
+
+#nav li a:hover, #nav li a.hov {
+	background-color: #fff;
+	width:135%;
+	border-left: 1px solid #d5dce8;
+	border-right: 1px solid #d5dce8;
+	color: #576482;
+}
+
+/* @group subnav */
+#nav ul {
+	position: absolute;
+	left: 0px;
+	display: none;
+	margin: 0%;
+	padding: 8%;
+	list-style: none;
+	border: 1px #d5dce8 solid;
+	background-color: #fff;
+}
+
+#nav ul li {
+	width: 80px;
+	float: left;
+	border-top: 1px solid #fff;
+	text-align: left;
+}
+
+#nav ul li:hover {
+	border-left: 0px solid transparent;
+	border-right: 0px solid transparent;
+	background: #eee
+}
+
+#nav ul a {
+	display: block;
+	height: 30px;
+	line-height: 20px;
+	padding: 8px 5px;
+	color: #666;
+	border-bottom: 1px solid transparent;
+	color: #797979;
+	font-weight: normal;
+	background: #fff;
+}
+
+#nav ul a:hover {
+	text-decoration: none;
+	border-right-color: transparent;
+	border-left-color: transparent;
+	background: transparent;
+	color: #4e4e4e;
+}
+
+* html #nav ul {
+	margin: 0 0 0 -2px;
+}
+
+/** @group clearfix **/
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+html[xmlns] .clearfix {
+	display: block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+.carousel slide {
+	margin: 0 auto;
+}
+.carousel-inner{
+	margin-left: 10%;
+}
+
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+@import url('http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css');
+body {
+  color: #5D5F63;
+  background: #293949;
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+.sidebar-toggle {
+  margin-left: -240px;
+}
+.sidebar {
+  width: 240px;
+  height: 100%;
+  background: #293949;
+  position: absolute;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  z-index: 100;
+}
+.sidebar #leftside-navigation ul,
+.sidebar #leftside-navigation ul ul {
+  margin: -2px 0 0;
+  padding: 0;
+}
+.sidebar #leftside-navigation ul li {
+  list-style-type: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.sidebar #leftside-navigation ul li.active > a {
+  color: #1abc9c;
+}
+.sidebar #leftside-navigation ul li.active ul {
+  display: block;
+}
+.sidebar #leftside-navigation ul li a {
+  color: #aeb2b7;
+  text-decoration: none;
+  display: block;
+  padding: 18px 0 18px 25px;
+  font-size: 12px;
+  outline: 0;
+  -webkit-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  -o-transition: all 200ms ease-in;
+  -ms-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+.sidebar #leftside-navigation ul li a:hover {
+  color: #1abc9c;
+}
+.sidebar #leftside-navigation ul li a span {
+  display: inline-block;
+}
+.sidebar #leftside-navigation ul li a i {
+  width: 20px;
+}
+.sidebar #leftside-navigation ul li a i .fa-angle-left,
+.sidebar #leftside-navigation ul li a i .fa-angle-right {
+  padding-top: 3px;
+}
+.sidebar #leftside-navigation ul ul {
+  display: none;
+}
+.sidebar #leftside-navigation ul ul li {
+  background: #23313f;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  border-bottom: none;
+}
+.sidebar #leftside-navigation ul ul li a {
+  font-size: 12px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  color: #aeb2b7;
+}
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
+a {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-decoration: none;
+}
+
+.links {
+  *zoom: 1;
+  padding: 50px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  background: #313131;
+}
+.links:before, .links:after {
+  content: "";
+  display: table;
+}
+.links:after {
+  clear: both;
+}
+
+.link-effect-1 {
+  text-align: center;
+}
+.link-effect-1 a {
+  -moz-perspective: 900px;
+  -webkit-perspective: 900px;
+  perspective: 900px;
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  line-height: 44px;
+}
+.link-effect-1 a span {
+  position: relative;
+  padding: 0 14px;
+  background: #797878;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -moz-transform-origin: 50% 0 50%;
+  -ms-transform-origin: 50% 0 50%;
+  -webkit-transform-origin: 50% 0 50%;
+  transform-origin: 50% 0 50%;
+  -moz-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.link-effect-1 a span::before {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #565555;
+  content: attr(data-hover);
+  -moz-transition: background 0.3s;
+  -o-transition: background 0.3s;
+  -webkit-transition: background 0.3s;
+  transition: background 0.3s;
+  -moz-transform: rotateX(-90deg);
+  -ms-transform: rotateX(-90deg);
+  -webkit-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+  -moz-transform-origin: 50% 0 50%;
+  -ms-transform-origin: 50% 0 50%;
+  -webkit-transform-origin: 50% 0 50%;
+  transform-origin: 50% 0 50%;
+}
+.link-effect-1 a:hover span, .link-effect-1 a:focus span {
+  -moz-transform: rotateX(90deg) translateY(-22px);
+  -ms-transform: rotateX(90deg) translateY(-22px);
+  -webkit-transform: rotateX(90deg) translateY(-22px);
+  transform: rotateX(90deg) translateY(-22px);
+}
+.link-effect-1 a:hover span::before, .link-effect-1 a:focus span::before {
+  background: #666464;
+}
+
