@@ -7,9 +7,9 @@
 <title>회원가입</title>
 <script type="text/javascript"
    src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-<link rel="stylesheet" href="resources/css/mberMng.css" type="text/css"
+<link rel="stylesheet" href="css/mberMng.css" type="text/css"
    media="screen" />
-<link rel="stylesheet" href="resources/css/mberMng.bootstrap.css"
+<link rel="stylesheet" href="css/mberMng.bootstrap.css"
    type="text/css" media="screen" />
 
 
